@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api import files, ocr, images, tables, embeddings, queue, llm, drive, db
+from api import files, ocr, images, tables, queue, llm, drive, db
 import os
 
 app = FastAPI(title="RAG System Backend")
@@ -28,4 +28,3 @@ def read_root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
