@@ -4,7 +4,7 @@ python-multipart
 pydrive2
 requests
 pydantic
-pinecone-client
+pinecone
 openai
 python-dotenv
 python-jose[cryptography]
